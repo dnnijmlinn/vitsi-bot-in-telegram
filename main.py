@@ -6,7 +6,7 @@ from telebot import types
 from bs4 import BeautifulSoup as b
 
 URL = 'https://www.vitsienvitsit.fi/vitsit/'
-API_KEY = '5615366447:AAFEIuf152Z074LakXDd7UmCU-hyOoCqSVA'
+API_KEY = '###########'
 def parser(url):
     r = requests.get(url)
 
